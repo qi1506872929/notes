@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pager a{
+            border: 1px solid #e1e2e3;
+            text-decoration: initial;
+            color: #38f;
+            width: 34px;
+            height: 34px;
+            display: inline-block;
+            line-height: 34px;
+            text-align: center;
+        }
+
+        .pager a:hover{
+            border-color: #38f;
+            background-color: #f2f8ff;
+        }
+
+        .pager a.selected{
+            border: none;
+            color: #000;
+            background: initial;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pager">
+        <a href="">1</a><!-- 此处的空格和转行会折叠成一个空格 -->
+        <a href="">2</a>
+        <a href="" class="selected">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <a href="">6</a>
+        <a href="">7</a>
+        <a href="">8</a>
+        <a href="">9</a>
+        <a href="">10</a>
+    </div>
+</body>
+
+</html>

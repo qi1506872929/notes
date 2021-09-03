@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 选中a元素，并且a元素必须是第一个子元素 */
+        a:first-child {
+            color: red;
+        }
+        /* 选中的子元素中第一个a元素 */
+        a:first-of-type{
+            color: red;
+        }
+        /* 必须是a元素，必须是最后一个子元素 */
+        a:last-child{
+            color: green;
+        }
+        /* 选中的子元素中最后一个a元素  */
+        a:last-of-type{
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <p>Lorem.</p>
+            <a href="">Lorem.</a>
+            <a href="">Quae.</a>
+            <a href="">Est!</a>
+            <a href="">Dolore?</a>
+            <a href="">Eveniet?</a>
+            <a href="">Cupiditate?</a>
+            <a href="">Velit?</a>
+            <a href="">Illo!</a>
+            <a href="">Minima.</a>
+            <a href="">Facere.</a>
+            <p>Lorem.</p>
+        </nav>
+    </div>
+</body>
+
+</html>

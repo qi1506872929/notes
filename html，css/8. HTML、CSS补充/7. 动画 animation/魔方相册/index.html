@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        html {
+            perspective: 800px;
+        }
+        
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+            transform-style: preserve-3d;
+            animation: rotate 10s linear infinite;
+        }
+        
+        .box img {
+            vertical-align: middle;
+        }
+        
+        .box div {
+            width: 200px;
+            height: 200px;
+            opacity: .8;
+            position: absolute;
+        }
+        
+        .box1 {
+            transform: rotateX(90deg) translateZ(100px);
+        }
+        
+        .box2 {
+            transform: rotateX(-90deg) translateZ(100px);
+        }
+        
+        .box3 {
+            transform: rotateY(90deg) translateZ(100px);
+        }
+        
+        .box4 {
+            transform: rotateY(-90deg) translateZ(100px);
+        }
+        
+        .box5 {
+            transform: rotateY(180deg) translateZ(100px);
+        }
+        
+        .box6 {
+            transform: rotateY(0) translateZ(100px);
+        }
+        
+        @keyframes rotate {
+            form {
+                /* transform: rotateX(0) rotateZ(0); */
+                transform: rotate3d(1, 0, 1, 0deg)
+            }
+            to {
+                /* transform: rotateX(360deg) rotateZ(360deg); */
+                transform: rotate3d(1, 0, 1, 360deg)
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1"><img src="./img/1.jpg"></div>
+        <div class="box2"><img src="./img/2.jpg"></div>
+        <div class="box3"><img src="./img/3.jpg"></div>
+        <div class="box4"><img src="./img/4.png"></div>
+        <div class="box5"><img src="./img/5.jpg"></div>
+        <div class="box6"><img src="./img/6.jpg"></div>
+    </div>
+</body>
+
+</html>

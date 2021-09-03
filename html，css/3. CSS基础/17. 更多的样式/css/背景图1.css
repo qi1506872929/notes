@@ -1,0 +1,13 @@
+div{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid;
+    background-image: url("../imgs/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+}
+
+/* body{
+    background-image: url("../imgs/2.jpg");
+    background-repeat: repeat;
+} */

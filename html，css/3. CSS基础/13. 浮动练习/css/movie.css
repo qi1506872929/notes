@@ -1,0 +1,147 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    line-height: 1.5;
+    /* background-image: url(../img/test2.jpg); */
+}
+
+.main .nav {
+    background-color: #47464a;
+    text-align: center;
+    height: 60px;
+}
+
+.main .nav a {
+    color: #999;
+    margin: 0 40px;
+    line-height: 60px;
+}
+
+.main .nav a:hover {
+    color: #fff;
+}
+
+.main .nav a.select {
+    color: #ef4238;
+}
+
+.main .container {
+    width: 1120px;
+    margin: 40px auto 0;
+}
+
+.main .container .choose-area {
+    font-size: 14px;
+    padding: 0 20px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.main .container .choose-area .choose-item {
+    padding: 10px 0;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.main .container .choose-area .choose-item:nth-child(3) {
+    border-bottom: none;
+}
+
+.main .container .choose-area .choose-item .left {
+    float: left;
+    color: #999;
+    padding: 3px 0;
+}
+
+.main .container .choose-area .choose-item .right li a {
+    float: left;
+    color: #333;
+    padding: 3px 9px;
+    margin-left: 12px;
+}
+
+.main .container .choose-area .choose-item .right li a:hover {
+    color: #ef4238;
+}
+
+.main .container .choose-area .choose-item .right li a.select {
+    background-color: #ef4238;
+    color: #fff;
+    /* css圆角边框 */
+    border-radius: 14px;
+    /* 禁用hover */
+    pointer-events: none;
+}
+
+.main .container .movies {
+    margin-top: 40px;
+}
+
+.main .container .movies .movie-item {
+    float: left;
+    margin-right: 32px;
+    margin-top: 30px;
+    text-align: center;
+    width: 160px;
+}
+
+.main .container .movies .movie-item:nth-child(6n){
+    margin-right: 0;
+}
+
+.main .container .movies .movie-item .poster{
+    height: 220px;
+}
+
+.main .container .movies .movie-item .name {
+    padding: 10px 2px 0;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main .container .movies .movie-item .score {
+    font-size: 24px;
+    color: #ffb400;
+}
+
+.main .container .movies .movie-item .score::first-letter{
+    font-size: 1.2em;
+}
+
+.main .container .pager{
+    text-align: center;
+    padding: 1em 0;
+}
+
+.main .container .pager a:hover{
+    border-color: #ef4238;
+}
+
+.main .container .pager .pager-pager{
+    width: 74px;
+    height: 32px;
+    border: 1px solid #d8d8d8;
+    display: inline-block;
+    line-height: 32px;
+    margin: 0 3px;
+}
+
+.main .container .pager .number{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #d8d8d8;
+    display: inline-block;
+    line-height: 32px;
+    margin: 0 3px;
+}
+
+.main .container .pager .select{
+    background-color: #ef4238;
+    color: #fff;
+    pointer-events: none;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .clock {
+            height: 500px;
+            width: 500px;
+            margin: 0 auto;
+            margin-top: 100px;
+            border-radius: 50%;
+            background: url("表盘.jpg") center/cover;
+            position: relative;
+        }
+        
+        .clock>div {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+        
+        .hour {
+            height: 25%;
+            width: 6px;
+            background-color: #424242;
+            margin: 0 auto;
+            animation: run 43200s linear infinite;
+            transform-origin: center bottom;
+        }
+        
+        .min {
+            height: 32%;
+            width: 4px;
+            background-color: #424242;
+            margin: 0 auto;
+            animation: run 3600s steps(60) infinite;
+            transform-origin: center bottom;
+        }
+        
+        .sec {
+            height: 40%;
+            width: 2px;
+            background-color: #424242;
+            margin: 0 auto;
+            animation: run 60s steps(60) infinite;
+            transform-origin: center bottom;
+        }
+        
+        @keyframes run {
+            from {
+                transform: translate(0, -50%) rotate(0);
+            }
+            to {
+                transform: translate(0, -50%) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="clock">
+        <div class="hour"></div>
+        <div class="min"></div>
+        <div class="sec"></div>
+    </div>
+</body>
+
+</html>

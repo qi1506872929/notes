@@ -1,0 +1,69 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.header .item{
+    background-color: #e3e4e5;
+    color: #999;
+    height: 30px;
+    line-height: 30px;
+}
+
+.header .item>li {
+    text-align: center;
+    float: left;
+    margin: 0 30px;
+    width: 150px;
+    height: 30px;
+    position: relative;
+}
+
+.header .item>li:hover{
+    background-color: #fff;
+    border: 2px solid #999;
+    border-bottom: none;
+    box-sizing: border-box;
+    line-height: 26px;
+}
+
+.header .item>li .text{
+    display: none;
+    border: 2px solid #999;
+    width: 280px;
+    position: absolute;
+    right: -2px;
+    top: 28px;
+    text-align: left;
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.header .item>li:hover .text{
+    display: block;
+    
+}
+
+.header .item>li:hover::after{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 5px;
+    bottom: -3px;
+    left: 0;
+}
+
+.header .item>li .text .list>li{
+    float: left;
+    padding: 5px 10px;
+
+}

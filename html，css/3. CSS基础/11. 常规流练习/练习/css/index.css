@@ -1,0 +1,56 @@
+body {
+    background-color: #4d4a40;
+    line-height: 2;
+    min-width: 1000px;
+}
+
+.container {
+    background-color: #fff;
+    width: 90%;
+    margin: 20px auto;
+    padding: 30px 0;
+}
+
+.container header {
+    background-color: #267890;
+    text-align: center;
+    border: 5px solid #14414e;
+    margin: 0 -34px;
+}
+
+.container header h2 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container header .article-link {
+    color: #dbdbdb;
+    padding-bottom: 26px;
+}
+
+.container header .article-link a {
+    text-decoration: underline;
+}
+
+.container header .article-link a:hover {
+    color: #fff;
+}
+
+.container section {
+    width: 90%;
+    /* 实际header与section的距离只有24px（），所以margin上下设置22px */
+    margin: 22px auto;
+}
+
+.container section h3 {
+    font-weight: bold;
+    margin: 22px auto;
+    font-size: 32px;
+    border-top: 1px dotted;
+    border-bottom: 1px dotted;
+}
+
+.container section p {
+    margin: 1em 0;
+}

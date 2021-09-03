@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 后面没有属性值的属性都是布尔属性，分别表示显示控件、自动播放。禁音播放、循环播放 -->
+    <!-- <video src="./media/video1.mp4" style="width:200px" controls autoplay muted loop></video> -->
+
+    <!-- 为了更好的兼容性 -->
+    <video style="width:200px" controls autoplay muted loop>
+        <source src="./media/video1.mp4">
+        <source src="./media/video1.webm">
+        <p>对不起，你的浏览器不支持video元素，请点击这里下载最新版本的浏览器</p>
+    </video>
+</body>
+
+</html>

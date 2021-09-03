@@ -1,0 +1,439 @@
+.remen {
+    background: url("../imgs/remen/1771365ca98ig9er706.jpg") no-repeat calc(50% - 305px) top #EDF4EC;
+    height: 304px;
+    margin-bottom: 25px;
+    background-size: contain;
+}
+
+.remen .container {
+    position: relative;
+}
+
+.remen .container .remen-right {
+    width: 300px;
+    height: 296px;
+    padding: 30px 10px 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.remen .container .remen-right .login {
+    background: url("../imgs/remen/erweima.png") no-repeat left top/contain;
+    background: url("../imgs/remen/duanxin.png") no-repeat left top/contain;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.remen .container .remen-right .login:hover {
+    opacity: .8;
+}
+
+.remen .container .remen-right .login-type {
+    width: 100%;
+    font-weight: 600;
+    color: #333;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.remen .container .remen-right .login-type>div {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #494949;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.remen .container .remen-right .login-type>div.left {
+    color: #9b9b9b;
+    border: none;
+    font-weight: 400;
+}
+
+.remen .container .remen-right .duanxin .readme {
+    color: #9b9b9b;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.remen .container .remen-right .duanxin .readme a {
+    color: #41ac52;
+    font-size: 12px;
+}
+
+.remen .container .remen-right .duanxin .select {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.remen .container .remen-right .duanxin .select .number {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 50px;
+    font-size: 15px;
+    line-height: 36px;
+    color: #333;
+    font-weight: 700;
+    padding-right: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.remen .container .remen-right .duanxin .select .number::after {
+    content: "";
+    position: absolute;
+    left: 48px;
+    top: 8px;
+    bottom: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.remen .container .remen-right .duanxin .select>div>input {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #e4e6e5;
+    border-radius: 3px;
+    padding: 8px 60px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+.remen .container .remen-right .duanxin .yanzhengma {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.remen .container .remen-right .duanxin .yanzhengma input {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e4e6e5;
+    border-radius: 3px;
+    padding: 8px 60px 8px 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+.remen .container .remen-right .duanxin .yanzhengma span {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    line-height: 35px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #41ac52;
+}
+
+/* 输入框公用 */
+.remen .container .remen-right button {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    cursor: default;
+    background-color: rgba(66, 189, 86, .5);
+}
+
+.remen .container .remen-right .tips {
+    width: 100%;
+    color: #41ac52;
+    text-align: right;
+    cursor: pointer;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+/* 公用结束 */
+
+.remen .container .remen-right .mima .for-mima {
+    width: 100%;
+    text-align: right;
+    color: #41ac52;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.remen .container .remen-right .mima .denglu input {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e4e6e5;
+    border-radius: 3px;
+    padding: 8px 60px 8px 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.remen .container .remen-right .scanning .tips1{
+    width: 100%;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+    text-align: left;
+    font-size: 13px;
+}
+
+.remen .container .remen-right .scanning .tips2 {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.remen .container .remen-right .scanning .tips2 img {
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    /* margin: 0 auto; */
+}
+
+.remen .container .remen-right .scanning .tips2 .tips3 {
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 3px 20px;
+    color: #494949;
+    background-color: rgba(0,0,0,.08);
+    display: inline-block;
+}
+
+.remen .container .remen-right .others {
+    padding: 10px 0;
+}
+
+.remen .container .remen-right .others span {
+    color: #9b9b9b;
+    font-size: 11px;
+    text-align: center;
+}
+
+.remen .container .remen-right .others a {
+    width: 23px;
+    height: 22px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.remen .container .remen-right .others .weixin {
+    background-image: url("../imgs/remen/weixin.svg");
+}
+
+.remen .container .remen-right .others .weibo {
+    background-image: url("../imgs/remen/weibo.svg");
+}
+
+.remen .container .remen-left {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* right: 300px; */
+    height: 120px;
+    margin: auto 0 auto 475px;
+}
+
+.remen .container .remen-left>div>p {
+    color: #111;
+    font-size: 25px;
+    margin: 8px 0;
+    line-height: 25px;
+}
+
+.remen .container .remen-left span {
+    margin-left: 10px;
+}
+
+.remen .container .remen-left .test1 {
+    padding-top: 18px;
+    height: 30px;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.remen .container .remen-left .test1 a {
+    display: inline-block;
+    height: 100%;
+}
+
+.remen .container .remen-left .test1 a button {
+    padding: 9px 21px;
+    font-size: 12px;
+    line-height: 1;
+    background-color: #00B51D;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+
+.remen .container .remen-left .test1>img {
+    height: 100%;
+    vertical-align: -10px;
+    border: 1px solid #48aa0d;
+    outline: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-left: 2px;
+}
+
+.remen .container .remen-left .test1 img:hover+div {
+    display: block;
+}
+
+.remen .container .remen-left .test1 .test2 {
+    font-size: 13px;
+    color: #666;
+    background-color: #fff;
+    line-height: 13px;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    text-align: center;
+    padding: 20px 20px 5px;
+}
+
+.remen .container .remen-left .test1 .test2 img {
+    /* width: 160px;
+    height: 160px; */
+    width: 30px;
+    height: 30px;
+}
+
+.remen .container .remen-left .test1 .test2 p {
+    font-size: 13px;
+    line-height: 13px;
+    margin: 1em 0;
+}
+
+
+
+/*  */
+.gaider .container {
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+/*  */
+.gaider .mod {
+    font-size: 15px;
+    color: #072;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.gaider .mod span {
+    color: #666666;
+    font-size: 12px;
+}
+
+.gaider .mod a {
+    color: #37a;
+}
+
+.gaider a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #37a;
+}
+/*  */
+
+
+.gaider .container .aside {
+    width: 265px;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.gaider .container .aside .advertising {
+    margin: 10px 15px 10px 0;
+    width: 250px;
+}
+
+.gaider .container .aside .advertising img {
+    width: 100%;
+    display: block;
+}
+
+.gaider .container .aside .online ul li {
+    width: 100%;
+    margin: 10px 0 15px 0;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #37a;
+}
+
+.gaider .container .aside .online ul li a {
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.gaider .container .aside .online ul li span {
+    display: block;
+    font-size: 13px;
+    line-height: 1;
+    color: #aaaaaa;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gaider .container .article .albums {
+    width: 360px;
+    margin: -10px 30px 0 -10px;
+}
+
+.gaider .container .article .albums .albums-item {
+    margin: 10px 0 0 10px;
+    float: left;
+    color: #37a;
+    font-size: 12px;
+    line-height: 1.62;
+}
+
+.gaider .container .article .albums .albums-item a img {
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+
+.gaider .container .article .albums .albums-item span {
+    color: #999;
+}
+
+.gaider .container .article .notes {
+    width: 275px;
+    overflow: hidden;
+}
+
+.gaider .container .article .notes ul li {
+    width: 100%;
+    margin-top: 12px;
+    color: #37a;
+    font-size: 12px;
+    line-height: 1.62;
+}
+
+.gaider .container .article .notes ul li:first-child {
+    margin-top: 0;
+}
+
+.gaider .container .article .notes ul li span {
+    display: block;
+    color: #999;
+}
+
+.gaider .container .article .notes ul li p {
+    color: #666;
+}
+
+/*  */

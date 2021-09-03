@@ -1,0 +1,54 @@
+// 
+
+/* */
+.box1 {
+    background-color: #bfa;
+
+    .box2 {
+        background-color: #ff0;
+
+        .box4 {
+            color: red;
+        }
+    }
+
+    .box3 {
+        background-color: orange;
+    }
+}
+
+// 变量
+@a: 100px;
+@b: #bfa;
+@c: box6;
+
+.box5 {
+    width: @a;
+    color: @b;
+}
+
+.@{c} {
+    width: @a;
+    background-image: url("@{c}/1.png");
+    @{c}: @e;
+}
+
+@e: 335px;
+
+div {
+    width: 300px;
+    height: $width;
+}
+
+.p1 {
+    width: 100px;
+    height: 200px;
+}
+
+.p2:extend(.p1) {
+    color: red;
+}
+
+.p3 {
+    .p1();
+}

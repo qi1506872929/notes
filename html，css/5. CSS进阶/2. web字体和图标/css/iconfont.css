@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2569800 */
+  src: url('../font/iconfont.woff2?t=1621928737157') format('woff2'),
+       url('../font/iconfont.woff?t=1621928737157') format('woff'),
+       url('../font/iconfont.ttf?t=1621928737157') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yonghu:before {
+  content: "\e71b";
+  /* &#xe71b */
+}
+
+.icon-danseshixintubiao-:before {
+  content: "\e62e";
+}
+
+.icon-bojuelvpaiicontilian_huabanfuben:before {
+  content: "\e60a";
+}
+
